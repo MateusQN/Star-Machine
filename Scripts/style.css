@@ -1,7 +1,7 @@
         /* estilo para o corpo da página */
         body {
             font-family: Arial, sans-serif; /* define a fonte utilizada */
-            background-image:url(/assets/Black\ Yellow\ Space\ Modern\ Space\ Galaxy\ Star\ Trivia\ Quiz\ Animated\ Game\ Presentation.png); /* define a cor de fundo do corpo da página */
+            background-image:url(/assets/ceu.png); /* define a cor de fundo do corpo da página */
             background-size: cover;
             background-repeat: no-repeat;
             margin: 0; /* remove margens externas */
