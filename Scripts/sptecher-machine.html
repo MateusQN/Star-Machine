@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Bases</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- contêiner principal -->
+    <div id="container">
+        <!-- título da página -->
+        <div class="titulo">
+            <img src="/assets/star (2).png" alt="">
+        </div>
+        <!-- entrada de valor -->
+        <input id="inputValue" type="text" placeholder="Digite o valor">
+        <!-- seleção da base -->
+        <select id="inputBase" class="select">
+            <option value="decimal" class="opt">Decimal</option>
+            <option value="hexadecimal" class="opt">Hexadecimal</option>
+            <option value="octal" class="opt">Octal</option>
+            <option value="binario" class="opt">Binário</option>
+        </select>
+        <br><br>
+        <!-- opções de conversão -->
+        <h3>Converter para:</h3>
+        <input type="checkbox" id="convertDecimal"><label for="convertDecimal">Decimal</label>
+        <input type="checkbox" id="convertHexadecimal"><label for="convertHexadecimal">Hexadecimal</label>
+        <input type="checkbox" id="convertOctal"><label for="convertOctal">Octal</label>
+        <input type="checkbox" id="convertBinario"><label for="convertBinario">Binário</label>
+        <br><br>
+        <!-- botão de conversão -->
+        <button onclick="converter()">Converter</button>
+        <!-- saída de resultados -->
+        <div id="output"></div>
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
